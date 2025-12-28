@@ -1,0 +1,158 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #2b3c4e;
+  color: #fff;
+  padding: 16px;
+}
+
+.navigation {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.navbutton {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+header img {
+  width: 100%;
+  max-height:300px;
+  display: block;
+  margin-top: 10px;
+}
+
+.welcome-bar {
+  background: #ffffff;
+  border: 34px solid #92b4db;
+  border-radius: 29px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+  margin: 20px;
+  
+}
+
+.products-bar {
+  margin-bottom: 20px;
+}
+
+.product-shell {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+    margin: 20px;
+}
+
+.product-box {
+  background: #fff;
+  border: 12px solid #ddd;
+  border-radius: 4px;
+  padding: 12px;
+  text-align: center;
+  margin: 12px;
+  
+}
+
+.product-box img {
+  width: 100%;
+  height: 180px;
+  margin-bottom: 10px;
+  object-fit: contain;
+}
+
+
+
+
+.about-shell {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.about-shell h2 {
+  margin: 0 0 10px 0;
+}
+
+.about-shell p {
+  margin: 10px 0;
+  line-height: 1.6;
+}
+
+.contact-shell {
+  background: #ecf0f1;
+  border: 1px solid #cfd6da;
+  border-radius: 4px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.contact-shell h2 {
+  margin: 0 0 8px 0;
+}
+
+.contact-shell p {
+  margin: 6px 0 16px 0;
+}
+
+.contact-form {
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.form {
+  margin-bottom: 12px;
+}
+
+.form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+}
+
+.buy-button{
+background: #7db5da;
+  color: #fff;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 54px;
+  
+}
+.submit-button {
+  background: #74b8d3;
+  color: #fff;
+  border: none;
+  padding: 10px 13px;
+  border-radius: 54px;
+  
+}
+
+@media screen and (max-width: 600px) {
+  .product-shell {
+    grid-template-columns: 1fr 1fr; 
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  .navigation {
+    margin-top: 6px;
+  }
+}
